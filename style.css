@@ -1,6 +1,6 @@
 body {
     overflow: hidden;
-    background: linear-gradient(#f4f4ed, white);
+    background: linear-gradient(hsl(60, 88%, 53%), rgb(158, 106, 106));
 }
 
 .container{
@@ -55,12 +55,12 @@ body {
     background: #ff0000;
 }
 
-.btnEqual {
+.btn-equal {
     width: 99.2%;
     background: rgb(255, 164, 27);
 }
 
-.btn:hover, .btnEqual:hover {
+.btn:hover, .btn-equal:hover {
     background-color: rgba(128, 128, 128, 0.1);
 }
 
@@ -68,7 +68,7 @@ body {
     .btn{
         width: 23.4%;
     }
-    .btnEqual {
+    .btn-equal {
         width: 97%; 
     }
 }
