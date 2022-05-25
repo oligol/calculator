@@ -1,3 +1,5 @@
+window.addEventListener('DOMContentLoaded', function() {
+
 let userInput = document.getElementById("userInput"),
     calculator = document.querySelector('.calculator'),
     expression = '';
@@ -14,3 +16,5 @@ let userInput = document.getElementById("userInput"),
             expression = "";
         }
     });
+
+});
